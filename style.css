@@ -10,9 +10,201 @@
 
         /*********************** Header Section **********************/
 
-.header-section {
-    background-image: url("/B9A1-New-Year-New-Mission/resources/");
-    background-repeat: no-repeat;
-    text-align: center;
-    align-items: center;
+header {
+    display: flex;
+    
 }        
+.header-section {
+    background-image: url(/B9A1-New-Year-New-Mission/resources/Banner-Image.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(177, 191, 203);
+} 
+
+.header-section {
+    
+    width: 82%;
+    height: 495px;
+    max-width: 1320px;
+    margin: 42px auto;
+    border-radius: 16px;
+    text-align: center;   
+}   
+.header-content {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translateX(-50%);
+}  
+.header-title {
+    font-size: 60px;
+    font-weight: 900;
+}  
+.header-sub-title {
+    font-size: 28px;
+    font-weight: 400;
+}
+
+        /*********************** Main Section cataloge **********************/
+
+.offer-title {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 60px;
+    font-weight: 700;
+    margin: 56px 0 40px 0;
+}
+.offer-details {
+    color: var(--main-color);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+.offer-cat {
+    color: #070211;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 700;
+    margin: 10px 0 40px 0;
+}
+.cataloge-pic {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cataloge-pic img {
+    width: 660px;
+}
+
+        /*********************** Main Section party **********************/
+
+.party-container {
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/B9A1-New-Year-New-Mission/resources/Vectorrr.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 82%;
+    height: 495px;
+    max-width: 1320px;
+    margin: 100px auto;
+    border-radius: 16px;
+}
+.party-title {
+    color: #FFF;
+    font-size: 54px;
+    font-weight: 900;
+}  
+.party-details {
+    color: rgba(255, 255, 255, 0.80);
+    font-size: 16px;
+    font-weight: 400;
+    padding: 20px 0;
+} 
+.party-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: var(--main-color);
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    cursor: pointer;
+}
+.party-pic {
+    width: 50%;
+    margin: 100px 0 0 100px;
+}
+.pic-2024 {
+    
+}
+.pic-2024 img{
+    width: 262px;
+    padding: 55px 110px 55px 0;
+}
+
+/*********************** Main Section Hotel data **********************/
+
+
+.hotel-s {
+    color: var(--main-color);
+}
+.hotel-data {
+    padding-bottom: 20px;
+}
+#hotel-top {
+    padding-top: 120px;
+}
+.hotel-details {
+    font-size: 20px;
+    font-weight: 600;
+    width: 82%;
+    height: 400px;
+    max-width: 1320px;
+    margin: 100px auto;
+    border-radius: 16px;
+    text-align: center;
+}
+.hotel-btn {
+    color: #FFF;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: var(--main-color);
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+
+/*********************** Main Section coming **********************/
+
+.coming-container {
+    width: 82%;
+    height: 380px;
+    max-width: 1320px;
+    margin: 100px auto;
+    border-radius: 16px;
+    display: flex;
+    align-items: center;
+    gap: 50px;
+
+}
+.coming-container div {
+    width: 33%;
+}
+.coming-pic img{
+    width: 90%;
+    border: 10px solid #F00 ;
+    border-radius: 50% 50% ;
+    padding: 20px;
+}
+.soon-title {
+    font-size: 20px;
+    font-weight: 500;
+    color: var(--main-color);
+}
+.soon-sub-title {
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 900;
+    padding: 15px 0;
+
+}
+.soon-details {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
+.title-2024 {
+    font-size: 40px;
+    font-weight: 700;
+    color: var(--main-color);
+}
+.details-2024 {
+    color: rgba(7, 2, 17, 0.60);
+    font-size: 18px;
+    font-weight: 400;
+}
