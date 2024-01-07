@@ -15,7 +15,7 @@ header {
     
 }        
 .header-section {
-    background-image: url(/B9A1-New-Year-New-Mission/resources/Banner-Image.png);
+    background-image: url(B9A1-New-Year-New-Mission/resources/Banner-Image.png);
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(177, 191, 203);
@@ -81,7 +81,7 @@ header {
 .party-container {
     display: flex;
     justify-content: space-between;
-    background-image: url(/B9A1-New-Year-New-Mission/resources/Vectorrr.png);
+    background-image: url(B9A1-New-Year-New-Mission/resources/Vectorrr.png);
     background-repeat: no-repeat;
     background-size: contain;
     width: 82%;
