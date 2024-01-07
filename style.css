@@ -1,1 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:'Roboto Slab';
+}
+:root {
+    --main-color: #F00;
+}
+  
 
+        /*********************** Header Section **********************/
+
+.header-section {
+    background-image: url("/B9A1-New-Year-New-Mission/resources/");
+    background-repeat: no-repeat;
+    text-align: center;
+    align-items: center;
+}        
