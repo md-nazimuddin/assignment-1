@@ -11,11 +11,11 @@
         /*********************** Header Section **********************/
 
 header {
-    display: flex;
+    /* display: flex; */
     
 }        
 .header-section {
-    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../B9A1-New-Year-New-Mission/resources/Banner-Image.png');
+    background-image:linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('B9A1-New-Year-New-Mission/resources/Banner-Image.png');
     background-repeat: no-repeat;
     background-size: cover;
     color: rgb(255, 255, 255);
@@ -32,7 +32,7 @@ header {
 }   
 .header-content {
     width: 40%;
-    padding: 180px 0 0 30% ;
+    padding: 150px 0 0 30% ;
 }  
 .header-title {
     font-size: 60px;
@@ -81,7 +81,7 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
 .party-container {
     display: flex;
     justify-content: space-between;
-    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('../B9A1-New-Year-New-Mission/resources/Vectorrr.png');
+    background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('B9A1-New-Year-New-Mission/resources/Vectorrr.png');
     background-repeat: no-repeat;
     background-size: contain;
     width: 82%;
@@ -287,4 +287,17 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     margin: 40px auto;
     border-radius: 16px;
     
+}
+
+      /*********************** Section News **********************/
+
+
+.news-container {
+    width: 82%;
+    height: 500px;
+    max-width: 1320px;
+    margin: 40px auto;
+    border-radius: 16px;
+    background-color: aqua;
+    text-align: center;
 }
