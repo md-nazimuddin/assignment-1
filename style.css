@@ -6,6 +6,7 @@
 :root {
     --main-color: #F00;
 }
+
   
 
         /*********************** Header Section **********************/
@@ -77,14 +78,13 @@
 
         /*********************** Main Section party **********************/
 
-        /* border-radius: 16px;
-background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
+
 .party-container {
     display: flex;
     justify-content: space-between;
     background-image: linear-gradient(90deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url('B9A1-New-Year-New-Mission/resources/Vectorrr.png');
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     width: 82%;
     height: 495px;
     max-width: 1320px;
@@ -113,14 +113,21 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     padding: 8px;
     cursor: pointer;
 }
+.party-btn:hover {
+    background-color: rgb(255, 96, 128);
+    font-size: 22px ;
+}
 .party-pic {
     width: 50%;
     padding: 100px 0 0 100px;
 }
 
+.pic-2024 {
+    display: flex;
+    align-items: center;
+}
 .pic-2024 img{
-    width: 262px;
-    margin: 55px 110px 55px 0;
+    width: 80%;
 }
 
 /*********************** Main Section Hotel data **********************/
@@ -168,11 +175,11 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     display: flex;
     align-items: center;
     gap: 50px;
-
 }
 .coming-container div {
-    width: 33%;
+    width: 33.33%;
 }
+
 .coming-pic img{
     width: 90%;
     border: 10px solid #F00 ;
@@ -200,14 +207,23 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     font-size: 40px;
     font-weight: 700;
     color: var(--main-color);
+    padding-left: 60px;
+    padding-top: 50px;
 }
 .details-2024 {
     color: rgba(7, 2, 17, 0.60);
     font-size: 18px;
     font-weight: 400;
+    padding: 15px 0 15px 60px;
+
 }
 
-        /*********************** Main Section coming **********************/
+.img-2024 {
+    padding-left: 60px;
+   
+}
+
+        /***********************  Section holidays **********************/
 
 
 .holidays-container {
@@ -238,7 +254,45 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     font-weight: 500;
     padding: 0 150px;
 }
-  
+
+
+            /***********************  Section Discounts **********************/
+
+
+.discount-container {
+    width: 82%;
+    height: 545px;
+    max-width: 1320px;
+    margin: 100px auto;
+    border-radius: 16px;
+    background-color: aqua;
+} 
+.discount-img {
+    height: 355px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+.discount-second {
+    display: flex;
+ width: 50%;
+}
+.discount-second img {
+    width: 100%;
+}
+/* .discount-img img {
+    width: 33.33%;
+}   */
+/* #circle {
+    width: 240px;
+    height: 240px;
+    margin: 50px 0 0 150px;
+} */
+.discount-bar {
+    background-image: url('B9A1-New-Year-New-Mission/resources/Rectangle-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+}         
 
             /*********************** Main Section Gallary **********************/
 
@@ -295,9 +349,8 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     width: 82%;
     height: 500px;
     max-width: 1320px;
-    margin: 40px auto;
+    margin: 100px auto;
     border-radius: 16px;
-    background-color: aqua;
     text-align: center;
 }
 .news-pic {
@@ -315,6 +368,32 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     font-size: 18px;
     font-weight: 400;
 }
+.news-btn {
+    display: flex;
+    justify-content: center;
+}
+.email-box {
+    height: 60px;
+    width: 360px;
+    border: none;
+    border-bottom-left-radius: 2rem ;
+    border-top-left-radius: 2rem ;
+    padding-left: 20px;
+    color: rgba(7, 2, 17, 0.30);
+    font-size: 16px;
+    font-weight: 400;
+}
+.sub-btn {
+    height: 60px;
+    width: 170px;
+    border: none;
+    background-color: var(--main-color);
+    border-bottom-right-radius: 2rem ;
+    border-top-right-radius: 2rem ;
+    color: #FFF;
+    font-size: 20px;
+    font-weight: 600;
+}
 
              /*********************** Section Footer **********************/ 
 
@@ -324,7 +403,6 @@ background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%); */
     max-width: 1320px;
     margin: 40px auto 0 auto;
     border-radius: 16px;
-    background-color: aqua;
 } 
 footer {
     background-color: #070211;
@@ -333,8 +411,9 @@ footer {
     display: flex;
     align-items: center;
     height: 200px;
-    justify-content: space-around;
-    border-bottom: 1px solid rgba(7, 2, 17, 0.60) ;
+    justify-content: space-between;
+    border-bottom: 1px solid rgb(219, 146, 146) ;
+    padding-right: 200px;
 }
 .footer-box2 {
     height: 132px;
@@ -342,7 +421,7 @@ footer {
     gap: 20px;
     justify-content: center;
     align-items: center;
-    border-bottom: 1px solid rgba(7, 2, 17, 0.60) ;
+    border-bottom: 1px solid rgb(219, 146, 146) ;
 }
 .footer-box3 {
     height: 168px;
@@ -354,4 +433,18 @@ footer {
     color: #FFF;
     font-size: 18px;
     font-weight: 500;
+}
+.footer-btn {
+    color: #FFF;
+    font-size: 18px;
+    font-weight: 500;
+    background-color: var(--main-color);
+    border-radius: 8px;
+    border: none;
+    padding: 8px;
+    margin-top: 30px;
+    cursor: pointer;
+}
+#icon {
+    padding-right: 10px;
 }
